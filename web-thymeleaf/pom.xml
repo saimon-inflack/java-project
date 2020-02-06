@@ -4,7 +4,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.javaproject</groupId>
     <artifactId>web-thymeleaf</artifactId>
     <packaging>jar</packaging>
     <name>Spring Boot Web Thymeleaf Example</name>
@@ -18,7 +17,7 @@
     </parent>
 
     <properties>
-<!--        <java.version>1.8</java.version>-->
+        <java.version>11</java.version>
         <bootstrap.version>4.2.1</bootstrap.version>
     </properties>
 
