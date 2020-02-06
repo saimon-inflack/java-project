@@ -1,0 +1,8 @@
+1. Project Directory
+2. Maven
+3. Developer Tools
+4. Spring Boot + MVC
+5. Thymeleaf + Static files
+6. Unit Test
+7. Demo
+8. Create an executable JAR
