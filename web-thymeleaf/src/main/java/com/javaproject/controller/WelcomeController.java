@@ -26,8 +26,9 @@ public class WelcomeController {
     }
 
     // /hello?name=kotlin
+    @GetMapping("/hello")
     public String mainWithParam(
-            @RequestParam(name = "name", required = false, defaultValue = "")
+            @RequestParam(name = "name", required = false, defaultValue = "Stranger")
                     String name, Model model) {
 
         model.addAttribute("message", name);
